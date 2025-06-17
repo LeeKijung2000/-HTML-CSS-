@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>Flex A 박스만</title>
+  <style>
+    .box-a {
+      width: 300px;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f9fc63;
+      border: 2px solid black;
+    }
+
+    .box-b {
+      width: 300px;
+      height: 300px;
+      background-color: #ddd;
+      border: 2px solid black;
+    }
+
+    .item {
+      width: 100px;
+      height: 100px;
+      background-color: green;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box-a">
+    <div class="item">A 안</div>
+  </div>
+
+  <br />
+
+  <div class="box-b">
+    B 박스
+  </div>
+
+</body>
+</html>
